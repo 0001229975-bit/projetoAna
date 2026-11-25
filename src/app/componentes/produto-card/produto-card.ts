@@ -9,7 +9,7 @@ import { Produto } from '../../models/produto.model';
   templateUrl: './produto-card.html',
 })
 export class ProdutoCard {
-  item:Produto={
+  item:Produto={  
     id:1,
     nome:'Notebook',
     preco:3500,
